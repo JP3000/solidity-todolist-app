@@ -1,0 +1,90 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Next.js
+.next/
+out/
+public/static*
+.swc
+next-env.d.ts
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.development.local
+.env.production
+.env.production.local
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# Editor directories and files
+*.suo
+*.njsproj
+*.sln
+*.swp
+
+# Git
+.git/hooks/pre-commit
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Dependency check
+dependency-check.json
+
+# Optional files
+/coverage
+/storybook-static
+
+# Temporary files and directories
+tmp*
+temp*
+*~
+*.bak
+*.sw*
+*.lock
+*.DS_Store
+
+# Cloudflare Pages
+.cloudflare
+
+# TurboRepo
+.turbo
+
+# Docker
+docker-compose.override.yml
+
+# Solidity/Backend Specific
+backend/artifacts/  # Compiled smart contract artifacts
+backend/cache/       # Hardhat/Truffle cache
+backend/build/       # Build output folder
+backend/typechain/   # typechain output folder (if using)
+
+# Ignore private keys (CRITICAL)
+backend/keys/  # Or wherever you store private keys
+backend/*.secret  # Or whatever extension your secrets use
+
+# Testnets artifacts/deployments
+backend/deployments/ # Hardhat deployments folder or similar
+
+# Hardhat/Truffle specific ignores
+backend/hardhat.config.js # Or truffle-config.js
+backend/test/  # Maybe you don't want to track test code?  Depends on your workflow
