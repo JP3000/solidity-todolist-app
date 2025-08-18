@@ -12057,12 +12057,12 @@
     "11155111": {
       "events": {},
       "links": {},
-      "address": "0x490339777630F993cd565d497886cA5774E99E94",
-      "transactionHash": "0x049bcdc2d7e1c8539e211873f365003cd27c7e31f23d2ba29ed87ed8e66cb657"
+      "address": "0xD5Eba446b80596cAF3254590b449C0b5c6F5D5B2",
+      "transactionHash": "0x3843367623bfc41fb904f4d5eeeccb07c51113edc8029949cd7663c2413397a2"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2025-08-17T11:33:54.210Z",
+  "updatedAt": "2025-08-18T01:19:51.100Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
