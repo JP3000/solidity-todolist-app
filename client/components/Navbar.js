@@ -5,11 +5,11 @@ import { IoIosNotificationsOutline } from 'react-icons/io'
 
 const Navbar = () => {
   return (
-    <div className='w-[full] flex px-2 py-8 justify-between'>
-      <HiMenuAlt4 className='text-[#93aff9] text-3xl cursor-pointer' />
+    <div className='w-full flex px-2 py-8 justify-between bg-gradient-to-r from-[#ffb199] via-[#ff0844] to-[#ffb199] rounded-[20px] shadow-md mb-6'>
+      <HiMenuAlt4 className='text-white text-3xl cursor-pointer drop-shadow' />
       <div className='flex-1 flex place-content-end gap-[30px]'>
-        <BiSearch className='text-[#93aff9] text-3xl cursor-pointer' />
-        <IoIosNotificationsOutline className='text-[#93aff9] text-3xl cursor-pointer' />
+        <BiSearch className='text-white text-3xl cursor-pointer drop-shadow' />
+        <IoIosNotificationsOutline className='text-white text-3xl cursor-pointer drop-shadow' />
       </div>
     </div>
   )

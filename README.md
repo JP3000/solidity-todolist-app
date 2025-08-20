@@ -1,6 +1,6 @@
 # Todo DApp with Solidity, Next.js & Truffle
 
-![DApp Preview](public/screenshot.png)
+![DApp Preview](./public/screenShot.jpg)
 
 A beginner-friendly decentralized todo application built for the Sepolia testnet. Perfect introduction to Web3 development with full blockchain integration.
 
@@ -14,7 +14,7 @@ A beginner-friendly decentralized todo application built for the Sepolia testnet
 ## Tech Stack
 
 **Core**  
-Solidity · Next.js · Truffle · ethers  
+Solidity · Next.js · Truffle · ethers v5 
 
 **Infrastructure**  
 Sepolia Testnet · Truffle · MetaMask  
