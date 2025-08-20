@@ -45,7 +45,8 @@ http://localhost:3000
 
 1. Install Truffle:
 ```bash
-npm install -g truffle
+    cd backend
+    npm install -g truffle
 ```
 
 2. Compile the smart contract:
@@ -56,7 +57,7 @@ npm install -g truffle
 ```bash
     truffle migrate --network
 ```
-be careful with the network name, it should be `sepolia`.
+⚠️ be careful with the network name, it should be `sepolia`.
 
 3. Deploy the smart contract to Sepolia testnet by truffle dashboard.
 
@@ -64,4 +65,5 @@ be careful with the network name, it should be `sepolia`.
 
 Thanks to all the amazing tools and developers who contributed to this project.
 
-- **Project Inspiration:** [Build a Todo App with Solidity, Next.js & Truffle](https://www.youtube.com/watch?v=awQTDVvYyjI) by Clever Programmer
+- **Project Inspiration:** 
+[Build a Todo App with Solidity, Next.js & Truffle](https://www.youtube.com/watch?v=awQTDVvYyjI) by Clever Programmer
